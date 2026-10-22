@@ -19,7 +19,7 @@
     { t: 'Integrating IoT in Capstone Project', by: 'Northeastern College, 10th IT Week', d: 'Aug 27, 2026', c: 'Networking and IoT', f: 'nc-iot-capstone.jpg' },
     { t: 'Programming Fundamentals', by: 'Northeastern College, 10th IT Week', d: 'Aug 27, 2026', c: 'Programming', f: 'nc-programming-fundamentals.jpg' },
     { t: 'Video Editing Tips and Tricks', by: 'Northeastern College, 10th IT Week', d: 'Aug 27, 2026', c: 'Seminars', f: 'nc-video-editing.jpg' },
-    { t: 'Introduction to ISO 9001 (Quality Management System Standards)', by: 'Adal Pilipinas, Cordillera Young Leaders Club', d: 'Jul 25, 2026', c: 'Seminars', f: 'adal-iso-9001.jpg' }
+    { t: 'Introduction to ISO 9001 (Quality Management System Standards)', by: 'Adal Pilipinas, Cordillera Young Leaders Club', d: 'Jul 25, 2026', c: 'Seminars', f: 'adal-iso-9001.jfif' }
   ];
 
   var $ = function (id) { return document.getElementById(id); };
