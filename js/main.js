@@ -15,7 +15,7 @@
     { t: 'Microsoft Azure AI Fundamentals', by: 'TESDA Online Program', d: 'Sep 26, 2026', c: 'Cloud and AI', f: 'tesda-azure-ai-fundamentals.jpg' },
     { t: 'Microsoft Security, Compliance, and Identity Fundamentals', by: 'TESDA Online Program', d: 'Sep 26, 2026', c: 'Security', f: 'tesda-ms-security-fundamentals.jpg' },
     { t: 'AI Fundamentals: AI Automation Isn\u2019t Scary', by: 'UpskillTechPH Training Services', d: 'Sep 12, 2026', c: 'Cloud and AI', f: 'upskill-ai-fundamentals.jpg' },
-    { t: 'IT Fundamentals: Intro to Information Systems', by: 'UpskillTechPH Training Services', d: 'Sep 11, 2026', c: 'Seminars', f: 'upskill-it-fundamentals.jpg' },
+    { t: 'IT Fundamentals: Intro to Information Systems', by: 'UpskillTechPH Training Services', d: 'Sep 11, 2026', c: 'Seminars', f: 'upskill-it-fundametals.jpg' },
     { t: 'Integrating IoT in Capstone Project', by: 'Northeastern College, 10th IT Week', d: 'Aug 27, 2026', c: 'Networking and IoT', f: 'nc-iot-capstone.jpg' },
     { t: 'Programming Fundamentals', by: 'Northeastern College, 10th IT Week', d: 'Aug 27, 2026', c: 'Programming', f: 'nc-programming-fundamentals.jfif' },
     { t: 'Video Editing Tips and Tricks', by: 'Northeastern College, 10th IT Week', d: 'Aug 27, 2026', c: 'Seminars', f: 'nc-video-editing.jfif' },
