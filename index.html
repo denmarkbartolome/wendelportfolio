@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wendell Basila | Aspiring IT Professional</title>
+  <meta name="description" content="Portfolio of Wendell Basila, an IT student building skills in programming, cloud, AI, networking and IoT.">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add("js")</script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <a class="logo" href="#home" aria-label="Wendell Basila, home">wendell<span>.</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+    <nav class="menu" id="menu" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#focus">What I'm learning</a>
+      <a href="#certs">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="glow-orb" id="orb" aria-hidden="true"></div>
+      <div class="wrap hero-inner">
+        <div class="hero-text">
+        <p class="hello reveal">Hi, I'm</p>
+        <h1 class="reveal d1">Wendell <span class="neon">Basila</span></h1>
+        <p class="lead reveal d2">An aspiring IT professional and student, learning to build reliable software and understand the systems it runs on.</p>
+        <div class="actions reveal d3">
+          <a class="btn primary" href="assets/Wendell_Basila_Resume.pdf" download>Download resume</a>
+          <a class="btn ghost" href="#certs">See my certifications</a>
+        </div>
+        <ul class="stats reveal d4">
+          <li><strong id="certCount">17</strong> certificates earned</li>
+          <li><strong>5</strong> areas of study</li>
+          <li><strong>6</strong> training providers</li>
+        </ul>
+        </div>
+        <div class="hero-photo reveal d2">
+          <div class="float">
+            <div class="photo-ring"><img src="img/profile.jpg" alt="Portrait of Wendell Basila" width="800" height="800"></div>
+            <span class="tag t1" aria-hidden="true">C#</span>
+            <span class="tag t2" aria-hidden="true">Cloud</span>
+            <span class="tag t3" aria-hidden="true">IoT</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="wrap split">
+        <h2 class="reveal">About me</h2>
+        <div class="reveal d1">
+          <p>I'm a student who enjoys figuring out how technology works, from the code on the screen to the network underneath it. I learn by finishing courses, joining seminars and practicing what I pick up.</p>
+          <p>This year I completed learning paths in C# programming, cloud and AI fundamentals, networking, IoT and cybersecurity. I'm looking for chances to apply them through internships, projects and entry-level roles.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="focus">
+      <div class="wrap">
+        <h2 class="reveal">What I'm learning</h2>
+        <div class="focus-grid">
+          <article class="focus reveal"><h3>Programming</h3><p>C# basics: variables, numbers, string formatting and writing first programs.</p></article>
+          <article class="focus reveal d1"><h3>Cloud and AI</h3><p>AWS Cloud and AI Practitioner topics, Azure AI and the fundamentals of artificial intelligence.</p></article>
+          <article class="focus reveal d2"><h3>Networking and IoT</h3><p>Cisco networking basics, IoT with digital transformation, and IoT in capstone projects.</p></article>
+          <article class="focus reveal d3"><h3>Security</h3><p>Microsoft security, compliance and identity fundamentals.</p></article>
+          <article class="focus reveal d4"><h3>Quality and tools</h3><p>ISO 9001 quality management basics and video editing for presenting my work.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="certs">
+      <div class="wrap">
+        <h2 class="reveal">Certifications</h2>
+        <p class="sub reveal d1">Course completions and seminar participation from TESDA, Cisco, Microsoft, UpskillTechPH, Northeastern College and Adal Pilipinas. Select any card to view the certificate.</p>
+        <div class="filters reveal d2" id="filters" role="group" aria-label="Filter certificates"></div>
+        <div class="cert-grid" id="certGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="wrap contact reveal">
+        <h2>Let's connect</h2>
+        <p>Want to talk about an internship, a project or just tech? Find me online or grab my resume.</p>
+        <div class="actions">
+          <a class="btn primary" href="assets/Wendell_Basila_Resume.pdf" download>Download resume</a>
+          <!-- Replace the two links below with your own profile URLs -->
+          <a class="btn ghost" href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
+          <a class="btn ghost" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="wrap"><p>&copy; <span id="year">2026</span> Wendell Basila</p></div></footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Certificate viewer">
+    <button class="close" id="closeBox" aria-label="Close viewer">&times;</button>
+    <img id="boxImg" src="" alt="">
+    <p id="boxCap"></p>
+  </dialog>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
